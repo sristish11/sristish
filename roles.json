@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "privileges": {
+      "Manage Roles": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "Manage Branches": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "Manage Relationship Managers": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "Manage States": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "Manage Satellites": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "POSP": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "Premium Register": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ],
+      "Commission Statements": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "bulkupload"
+      ]
+    },
+    "created_at": "2025-11-03T05:26:41.164844",
+    "assigned_users": [
+      "admin@company.com"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ops User",
+    "privileges": {
+      "Manage Roles": [
+        "read",
+        "update"
+      ],
+      "Manage Branches": [
+        "read",
+        "update"
+      ],
+      "Manage Relationship Managers": [
+        "read",
+        "update"
+      ],
+      "Manage States": [
+        "read",
+        "update"
+      ],
+      "Manage Satellites": [
+        "read",
+        "update"
+      ],
+      "POSP": [
+        "read",
+        "update"
+      ]
+    },
+    "created_at": "2025-11-03T05:26:41.165014"
+  },
+  {
+    "id": 3,
+    "name": "Exp User",
+    "privileges": {
+      "Manage Roles": [
+        "read"
+      ],
+      "Manage Branches": [
+        "read"
+      ]
+    },
+    "created_at": "2025-11-03T05:26:41.165239"
+  },
+  {
+    "id": 4,
+    "name": "Exp User Copy",
+    "privileges": {
+      "Manage Roles": [
+        "read"
+      ],
+      "Manage Branches": [
+        "read"
+      ]
+    },
+    "created_at": "2025-11-03T05:28:33.726113"
+  },
+  {
+    "id": 5,
+    "name": "Exp User Copy Copy",
+    "privileges": {
+      "Manage Roles": [
+        "read"
+      ],
+      "Manage Branches": [
+        "read"
+      ],
+      "Manage Relationship Managers": [
+        "read"
+      ],
+      "Manage States": [
+        "read"
+      ],
+      "Manage Satellites": [
+        "read"
+      ],
+      "POSP": [
+        "read"
+      ],
+      "Premium Register": [
+        "read"
+      ],
+      "Commission Statements": [
+        "create",
+        "read"
+      ]
+    },
+    "created_at": "2025-11-03T06:09:27.744796",
+    "assigned_users": [
+      "branch1@company.com"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "supervisor",
+    "privileges": {
+      "Manage Roles": [
+        "create"
+      ],
+      "Manage Relationship Managers": [
+        "update"
+      ],
+      "Manage States": [
+        "update"
+      ],
+      "Manage Satellites": [
+        "update"
+      ],
+      "POSP": [
+        "create",
+        "update"
+      ],
+      "Premium Register": [
+        "create",
+        "update"
+      ],
+      "Commission Statements": [
+        "create",
+        "update"
+      ]
+    },
+    "assigned_users": [
+      "admin@company.com"
+    ],
+    "created_at": "2025-11-03T12:03:40.390592"
+  }
+]

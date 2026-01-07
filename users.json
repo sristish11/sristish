@@ -1,0 +1,14 @@
+[
+  {
+    "name": "admin@company.com",
+    "role": "Admin"
+  },
+  {
+    "name": "ops@company.com",
+    "role": "Ops User"
+  },
+  {
+    "name": "branch1@company.com",
+    "role": "Branch User"
+  }
+]
